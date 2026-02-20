@@ -1,0 +1,24 @@
+{
+  "name": "sanjays-job-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "dev:npm": "npm run dev --prefix apps/web",
+    "dev:web": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.3",
+  "devDependencies": {
+    "prisma": "5.22.0",
+    "turbo": "^2.8.7"
+  },
+  "dependencies": {
+    "@prisma/client": "5.22.0"
+  }
+}

@@ -1,0 +1,97 @@
+﻿node : node:internal/
+modules/cjs/loader:12
+10
+At line:1 char:1
++ node check-db.js 
+2>&1 | Out-File 
+-FilePath db_err.log 
+-Encoding utf8
++ 
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (node:in   
+ ternal/modules/c    
+js/loader:1210:S    
+tring) [], Remot    
+eException
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+  throw err;
+  ^
+
+Error: Cannot find 
+module '.prisma/clien
+t/default'
+Require stack:
+- C:\Users\Hp\Desktop
+\sanjays-job-portal\a
+pps\web\node_modules\
+.pnpm\@prisma+client@
+5.22.0\node_modules\@
+prisma\client\default
+.js
+- C:\Users\Hp\Desktop
+\sanjays-job-portal\a
+pps\web\check-db.js
+    at Module._resolv
+eFilename (node:inter
+nal/modules/cjs/loade
+r:1207:15)
+    at Module._load (
+node:internal/modules
+/cjs/loader:1038:27)
+    at 
+Module.require (node:
+internal/modules/cjs/
+loader:1289:19)
+    at require (node:
+internal/modules/help
+ers:182:18)
+    at 
+Object.<anonymous> (C
+:\Users\Hp\Desktop\sa
+njays-job-portal\apps
+\web\node_modules\.pn
+pm\@prisma+client@5.2
+2.0\node_modules\@pri
+sma\client\default.js
+:2:6)
+    at 
+Module._compile (node
+:internal/modules/cjs
+/loader:1521:14)
+    at Module._extens
+ions..js (node:intern
+al/modules/cjs/loader
+:1623:10)
+    at Module.load (n
+ode:internal/modules/
+cjs/loader:1266:32)
+    at Module._load (
+node:internal/modules
+/cjs/loader:1091:12)
+    at 
+Module.require (node:
+internal/modules/cjs/
+loader:1289:19) {
+  code: 
+'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\Hp\\D
+esktop\\sanjays-job-p
+ortal\\apps\\web\\nod
+e_modules\\.pnpm\\@pr
+isma+client@5.22.0\\n
+ode_modules\\@prisma\
+\client\\default.js',
+    'C:\\Users\\Hp\\D
+esktop\\sanjays-job-p
+ortal\\apps\\web\\che
+ck-db.js'
+  ]
+}
+
+Node.js v20.19.6

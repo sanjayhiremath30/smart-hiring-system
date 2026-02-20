@@ -1,0 +1,22 @@
+﻿Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+npx : Error: Command 
+failed with exit code 1: 
+pnpm add 
+@prisma/client@5.22.0 
+--silent
+At line:1 char:1
++ npx prisma generate 
+2>&1 | Out-File -FilePath 
+prisma_err.log -Encodin 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (E  
+  rror: Command ...5.22   
+ .0 --silent:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
