@@ -20,5 +20,11 @@
   },
   "dependencies": {
     "@prisma/client": "5.22.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@prisma/client",
+      "msgpackr-extract"
+    ]
   }
 }
