@@ -12,7 +12,7 @@ const ROLES = [
 
 export function CareerPathRecommender() {
   const [skills, setSkills] = useState("React, JavaScript, Node");
-  const [results, setResults] = useState<{ name: string; skills: string; fit: number }[] | null>(null);
+  const [results, setResults] = useState<{ id: string; name: string; skills: string; fit: number }[] | null>(null);
   const run = () => {
     setResults(
       ROLES.map((r) => ({ ...r, fit: 60 + Math.floor(Math.random() * 35) })).sort((a, b) => b.fit - a.fit)
